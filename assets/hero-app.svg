@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 880" role="img" aria-labelledby="title desc">
+  <title id="title">SellLight hero visual</title>
+  <desc id="desc">A bright desk scene with an iPhone, iPad, product photos, tags, notes, and small items.</desc>
+  <defs>
+    <linearGradient id="desk" x1="140" x2="1060" y1="120" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f1fbf7"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" x2="1">
+      <stop stop-color="#58b88a"/>
+      <stop offset="1" stop-color="#9cdec0"/>
+    </linearGradient>
+    <linearGradient id="peach" x1="0" x2="1">
+      <stop stop-color="#ffd8c9"/>
+      <stop offset="1" stop-color="#fff0cc"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#235246" flood-opacity=".16"/>
+    </filter>
+  </defs>
+
+  <rect x="44" y="54" width="1192" height="772" rx="42" fill="url(#desk)"/>
+  <circle cx="218" cy="192" r="96" fill="#fff5d8"/>
+  <circle cx="1072" cy="690" r="128" fill="#e8f7ff"/>
+  <path d="M185 634c102-42 190-36 264 18 73 54 172 52 298-5 127-58 224-55 292 8" fill="none" stroke="#dceee6" stroke-width="28" stroke-linecap="round"/>
+
+  <g filter="url(#shadow)">
+    <rect x="420" y="138" width="572" height="398" rx="34" fill="#263238"/>
+    <rect x="446" y="166" width="520" height="342" rx="22" fill="#f8fffb"/>
+    <rect x="484" y="202" width="172" height="118" rx="18" fill="url(#peach)"/>
+    <circle cx="538" cy="254" r="34" fill="#ffffff" opacity=".86"/>
+    <rect x="690" y="210" width="222" height="18" rx="9" fill="#cfe7dc"/>
+    <rect x="690" y="252" width="176" height="16" rx="8" fill="#e1ece8"/>
+    <rect x="690" y="288" width="126" height="16" rx="8" fill="#ffe3a4"/>
+    <rect x="484" y="356" width="130" height="72" rx="18" fill="#e8f7ff"/>
+    <rect x="638" y="356" width="130" height="72" rx="18" fill="#e8f5ee"/>
+    <rect x="792" y="356" width="120" height="72" rx="18" fill="#fff4d4"/>
+    <rect x="494" y="452" width="254" height="16" rx="8" fill="#dbeee6"/>
+    <rect x="792" y="452" width="120" height="16" rx="8" fill="#dbeee6"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="230" y="278" width="246" height="486" rx="42" fill="#263238"/>
+    <rect x="250" y="312" width="206" height="410" rx="30" fill="#ffffff"/>
+    <rect x="278" y="346" width="92" height="92" rx="22" fill="url(#peach)"/>
+    <rect x="386" y="360" width="44" height="12" rx="6" fill="#cfe7dc"/>
+    <rect x="386" y="390" width="34" height="12" rx="6" fill="#ffe3a4"/>
+    <rect x="278" y="468" width="152" height="16" rx="8" fill="#d7ebe2"/>
+    <rect x="278" y="502" width="118" height="14" rx="7" fill="#e7efec"/>
+    <rect x="278" y="548" width="152" height="58" rx="18" fill="#edf8f3"/>
+    <rect x="302" y="628" width="104" height="38" rx="12" fill="url(#green)"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="884" y="522" width="188" height="142" rx="26" fill="#fffaf0"/>
+    <circle cx="936" cy="592" r="28" fill="#ffd979"/>
+    <rect x="978" y="570" width="54" height="12" rx="6" fill="#e7d6ab"/>
+    <rect x="978" y="602" width="38" height="12" rx="6" fill="#e7d6ab"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="168" y="134" width="164" height="118" rx="24" fill="#ffffff"/>
+    <path d="M202 212l34-42 28 31 18-20 28 31H202Z" fill="#a9dabb"/>
+    <circle cx="290" cy="170" r="16" fill="#ffd979"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="612" y="586" width="184" height="130" rx="24" fill="#ffffff"/>
+    <rect x="644" y="624" width="118" height="14" rx="7" fill="#d8ece3"/>
+    <rect x="644" y="660" width="86" height="14" rx="7" fill="#ffd979"/>
+  </g>
+</svg>

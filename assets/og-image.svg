@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">SellLight OGP visual</title>
+  <desc id="desc">A bright SellLight OGP image with iPhone, iPad, product photos, notes, tags, and small items.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#ffffff"/>
+      <stop offset=".55" stop-color="#f4fbf7"/>
+      <stop offset="1" stop-color="#f3f8ff"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" x2="1">
+      <stop stop-color="#58b88a"/>
+      <stop offset="1" stop-color="#9cdec0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#235246" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="160" cy="132" r="104" fill="#fff1c4"/>
+  <circle cx="1032" cy="512" r="134" fill="#e8f6ff"/>
+  <path d="M118 498c118-55 226-52 324 10 96 62 214 58 352-12 119-60 214-55 284 15" fill="none" stroke="#ddf1e7" stroke-width="32" stroke-linecap="round"/>
+
+  <g filter="url(#shadow)">
+    <rect x="432" y="82" width="438" height="330" rx="34" fill="#263238"/>
+    <rect x="454" y="106" width="394" height="282" rx="22" fill="#fbfffd"/>
+    <rect x="492" y="146" width="128" height="88" rx="18" fill="#ffd8c9"/>
+    <circle cx="532" cy="184" r="24" fill="#fff" opacity=".8"/>
+    <rect x="650" y="152" width="148" height="14" rx="7" fill="#cfe7dc"/>
+    <rect x="650" y="188" width="110" height="12" rx="6" fill="#e2ece8"/>
+    <rect x="650" y="220" width="78" height="12" rx="6" fill="#ffd979"/>
+    <rect x="492" y="268" width="306" height="34" rx="14" fill="#f1f8f5"/>
+    <rect x="492" y="324" width="224" height="20" rx="10" fill="#dceee6"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="284" y="198" width="184" height="354" rx="38" fill="#263238"/>
+    <rect x="300" y="226" width="152" height="300" rx="26" fill="#fff"/>
+    <rect x="324" y="262" width="58" height="58" rx="16" fill="#fff1c8"/>
+    <rect x="394" y="274" width="36" height="10" rx="5" fill="#cfe7dc"/>
+    <rect x="394" y="302" width="28" height="10" rx="5" fill="#ffd979"/>
+    <rect x="324" y="350" width="104" height="12" rx="6" fill="#dceee6"/>
+    <rect x="324" y="386" width="86" height="12" rx="6" fill="#e7efec"/>
+    <rect x="324" y="432" width="104" height="42" rx="14" fill="#e8f5ee"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="796" y="392" width="158" height="110" rx="24" fill="#fffaf0"/>
+    <circle cx="842" cy="446" r="24" fill="#ffd979"/>
+    <rect x="882" y="428" width="44" height="10" rx="5" fill="#e3d4a8"/>
+    <rect x="882" y="456" width="30" height="10" rx="5" fill="#e3d4a8"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="150" y="118" width="136" height="98" rx="22" fill="#ffffff"/>
+    <path d="M180 178l28-34 24 26 16-18 26 26H180Z" fill="#a8dabb"/>
+    <circle cx="254" cy="148" r="13" fill="#ffd979"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="594" y="448" width="142" height="86" rx="20" fill="url(#green)"/>
+    <circle cx="628" cy="492" r="13" fill="#fff" opacity=".82"/>
+    <circle cx="666" cy="492" r="13" fill="#fff" opacity=".82"/>
+    <circle cx="704" cy="492" r="13" fill="#fff" opacity=".82"/>
+  </g>
+</svg>
