@@ -719,6 +719,10 @@ h3 {
   padding: 24px 0 76px;
 }
 
+.inline-legal {
+  padding-top: 24px;
+}
+
 .legal-section {
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -731,7 +735,7 @@ h3 {
 }
 
 .legal-section h3 {
-  margin-top: 18px;
+  margin-top: 24px;
 }
 
 .legal-section p,

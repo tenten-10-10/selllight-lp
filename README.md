@@ -11,10 +11,6 @@ SellLightのiOS/iPadOS向けマーケティングLPです。GitHub Pagesで公�
 ├── app.js
 ├── .nojekyll
 ├── README.md
-├── privacy/
-│   └── index.html
-├── support/
-│   └── index.html
 └── assets/
     ├── app-icon.png
     ├── app-settings-preview.png
@@ -57,12 +53,12 @@ TODO: 正式なSellLightのApp Store URLが確定したら、`app.js` の `APP_S
 
 ## サポート / プライバシーポリシー
 
-GitHub Pages上の追加ページです。
+サポートとプライバシーポリシーはLP本体の下部に同居しています。
 
-- サポート: `https://tenten-10-10.github.io/selllight-lp/support/`
-- プライバシーポリシー: `https://tenten-10-10.github.io/selllight-lp/privacy/`
+- サポート: `https://tenten-10-10.github.io/selllight-lp/#support`
+- プライバシーポリシー: `https://tenten-10-10.github.io/selllight-lp/#privacy`
 
-App Store ConnectのSupport URL / Privacy Policy URLをこのGitHub Pages側へ切り替える場合は、上記2つのURLを使用します。
+App Store ConnectのSupport URL / Privacy Policy URLをこのGitHub Pages側へ切り替える場合は、上記2つのアンカーURLを使用します。
 
 ## 画像差し替え方法
 
