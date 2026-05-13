@@ -65,8 +65,8 @@ App Store ConnectのSupport URL / Privacy Policy URLをこのGitHub Pages側へ�
 画像は `assets/` 配下にまとめています。差し替える場合は同じファイル名で置き換えると、HTML側の変更なしで反映できます。
 
 - アプリアイコン: `assets/app-icon.png`
-- ヒーロー画面プレビュー: `assets/app-settings-preview.png`
-- ヒーロー代替SVG: `assets/hero-app.svg`
+- ヒーロー画像: `assets/hero-app.svg`
+- 差し替え候補の実画面素材: `assets/app-settings-preview.png`
 - 機能説明画像: `assets/feature-overview.svg`
 - OGP画像: `assets/og-image.png`
 - OGP画像の編集元: `assets/og-image.svg`
