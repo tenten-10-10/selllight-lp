@@ -11,6 +11,10 @@ SellLightのiOS/iPadOS向けマーケティングLPです。GitHub Pagesで公�
 ├── app.js
 ├── .nojekyll
 ├── README.md
+├── privacy/
+│   └── index.html
+├── support/
+│   └── index.html
 └── assets/
     ├── app-icon.png
     ├── app-settings-preview.png
@@ -50,6 +54,15 @@ const APP_STORE_URL = "https://apps.apple.com/jp/search?term=SellLight";
 TODO: 正式なSellLightのApp Store URLが確定したら、`app.js` の `APP_STORE_URL` を差し替える。
 
 `index.html` のCTAにも初期値として同じ仮URLを入れていますが、ページ読み込み後は `app.js` が全CTAのリンクを `APP_STORE_URL` に揃えます。
+
+## サポート / プライバシーポリシー
+
+GitHub Pages上の追加ページです。
+
+- サポート: `https://tenten-10-10.github.io/selllight-lp/support/`
+- プライバシーポリシー: `https://tenten-10-10.github.io/selllight-lp/privacy/`
+
+App Store ConnectのSupport URL / Privacy Policy URLをこのGitHub Pages側へ切り替える場合は、上記2つのURLを使用します。
 
 ## 画像差し替え方法
 
