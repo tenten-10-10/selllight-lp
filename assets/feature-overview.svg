@@ -7,14 +7,14 @@
       <stop offset="1" stop-color="#eef9f3"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" x2="1">
-      <stop stop-color="#58b88a"/>
+      <stop stop-color="#f45b60"/>
       <stop offset="1" stop-color="#6aa9df"/>
     </linearGradient>
     <filter id="shadow" x="-18%" y="-18%" width="136%" height="136%">
-      <feDropShadow dx="0" dy="20" stdDeviation="26" flood-color="#235246" flood-opacity=".16"/>
+      <feDropShadow dx="0" dy="20" stdDeviation="26" flood-color="#4a2622" flood-opacity=".16"/>
     </filter>
   </defs>
-  <rect x="28" y="40" width="904" height="540" rx="42" fill="#f6fbf8"/>
+  <rect x="28" y="40" width="904" height="540" rx="42" fill="#fff8f7"/>
   <circle cx="792" cy="116" r="72" fill="#fff2ca"/>
   <circle cx="156" cy="504" r="92" fill="#e7f5ff"/>
 
@@ -27,10 +27,10 @@
     <rect x="486" y="180" width="118" height="14" rx="7" fill="#e0ebe7"/>
     <rect x="486" y="214" width="78" height="14" rx="7" fill="#ffd979"/>
     <rect x="322" y="260" width="330" height="34" rx="14" fill="#ffffff"/>
-    <rect x="348" y="272" width="128" height="10" rx="5" fill="#dceee6"/>
-    <rect x="544" y="272" width="76" height="10" rx="5" fill="#a6d5bd"/>
+    <rect x="348" y="272" width="128" height="10" rx="5" fill="#ffe5e5"/>
+    <rect x="544" y="272" width="76" height="10" rx="5" fill="#ff9693"/>
     <rect x="322" y="314" width="330" height="34" rx="14" fill="#ffffff"/>
-    <rect x="348" y="326" width="112" height="10" rx="5" fill="#dceee6"/>
+    <rect x="348" y="326" width="112" height="10" rx="5" fill="#ffe5e5"/>
     <rect x="544" y="326" width="76" height="10" rx="5" fill="#ffcfbd"/>
   </g>
 
@@ -40,15 +40,15 @@
     <rect x="198" y="270" width="60" height="60" rx="16" fill="#fff1c8"/>
     <rect x="270" y="282" width="38" height="10" rx="5" fill="#cfe7dc"/>
     <rect x="270" y="310" width="28" height="10" rx="5" fill="#ffd979"/>
-    <rect x="198" y="358" width="110" height="12" rx="6" fill="#dceee6"/>
+    <rect x="198" y="358" width="110" height="12" rx="6" fill="#ffe5e5"/>
     <rect x="198" y="392" width="90" height="12" rx="6" fill="#e5efeb"/>
-    <rect x="198" y="436" width="110" height="48" rx="16" fill="#e8f5ee"/>
+    <rect x="198" y="436" width="110" height="48" rx="16" fill="#fff0f1"/>
   </g>
 
   <g filter="url(#shadow)">
     <rect x="650" y="362" width="156" height="112" rx="24" fill="#ffffff"/>
     <circle cx="696" cy="418" r="24" fill="#ffb59f"/>
-    <rect x="736" y="398" width="42" height="10" rx="5" fill="#dceee6"/>
+    <rect x="736" y="398" width="42" height="10" rx="5" fill="#ffe5e5"/>
     <rect x="736" y="426" width="28" height="10" rx="5" fill="#ffd979"/>
   </g>
 

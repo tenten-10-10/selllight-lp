@@ -4,15 +4,15 @@
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
       <stop stop-color="#ffffff"/>
-      <stop offset=".55" stop-color="#f4fbf7"/>
+      <stop offset=".55" stop-color="#fff7f6"/>
       <stop offset="1" stop-color="#f3f8ff"/>
     </linearGradient>
     <linearGradient id="green" x1="0" x2="1">
-      <stop stop-color="#58b88a"/>
-      <stop offset="1" stop-color="#9cdec0"/>
+      <stop stop-color="#f45b60"/>
+      <stop offset="1" stop-color="#ff8a86"/>
     </linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#235246" flood-opacity=".16"/>
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#4a2622" flood-opacity=".16"/>
     </filter>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
@@ -29,7 +29,7 @@
     <rect x="650" y="188" width="110" height="12" rx="6" fill="#e2ece8"/>
     <rect x="650" y="220" width="78" height="12" rx="6" fill="#ffd979"/>
     <rect x="492" y="268" width="306" height="34" rx="14" fill="#f1f8f5"/>
-    <rect x="492" y="324" width="224" height="20" rx="10" fill="#dceee6"/>
+    <rect x="492" y="324" width="224" height="20" rx="10" fill="#ffe5e5"/>
   </g>
 
   <g filter="url(#shadow)">
@@ -38,9 +38,9 @@
     <rect x="324" y="262" width="58" height="58" rx="16" fill="#fff1c8"/>
     <rect x="394" y="274" width="36" height="10" rx="5" fill="#cfe7dc"/>
     <rect x="394" y="302" width="28" height="10" rx="5" fill="#ffd979"/>
-    <rect x="324" y="350" width="104" height="12" rx="6" fill="#dceee6"/>
+    <rect x="324" y="350" width="104" height="12" rx="6" fill="#ffe5e5"/>
     <rect x="324" y="386" width="86" height="12" rx="6" fill="#e7efec"/>
-    <rect x="324" y="432" width="104" height="42" rx="14" fill="#e8f5ee"/>
+    <rect x="324" y="432" width="104" height="42" rx="14" fill="#fff0f1"/>
   </g>
 
   <g filter="url(#shadow)">
@@ -52,7 +52,7 @@
 
   <g filter="url(#shadow)">
     <rect x="150" y="118" width="136" height="98" rx="22" fill="#ffffff"/>
-    <path d="M180 178l28-34 24 26 16-18 26 26H180Z" fill="#a8dabb"/>
+    <path d="M180 178l28-34 24 26 16-18 26 26H180Z" fill="#ffaaa6"/>
     <circle cx="254" cy="148" r="13" fill="#ffd979"/>
   </g>
 

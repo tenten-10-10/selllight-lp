@@ -16,15 +16,16 @@
     />
     <meta property="og:image" content="./assets/og-image.png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="theme-color" content="#58b88a" />
+    <meta name="theme-color" content="#f45b60" />
     <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./assets/app-icon.png" />
     <link rel="stylesheet" href="./styles.css" />
     <script src="./app.js" defer></script>
   </head>
   <body>
     <header class="site-header" aria-label="サイトヘッダー">
       <a class="brand" href="#top" aria-label="SellLight トップへ">
-        <span class="brand-mark" aria-hidden="true">S</span>
+        <img class="brand-icon" src="./assets/app-icon.png" alt="" aria-hidden="true" />
         <span>SellLight</span>
       </a>
       <nav class="header-nav" aria-label="ページ内メニュー">
@@ -38,6 +39,10 @@
     <main id="top">
       <section class="hero section-pad" aria-labelledby="hero-title">
         <div class="hero-copy">
+          <div class="app-badge" aria-label="SellLightアプリ">
+            <img src="./assets/app-icon.png" alt="" aria-hidden="true" />
+            <span>SellLight for iPhone/iPad</span>
+          </div>
           <h1 id="hero-title">売るものを、iPhone/iPadでかんたん整理。</h1>
           <p class="hero-lead">
             SellLightは、写真・価格・メモ・販売状況をひとつにまとめて、家事や本業の合間にもすぐ見返せる商品管理アプリです。
@@ -54,8 +59,19 @@
             <span>macOS Coming Soon</span>
           </div>
         </div>
-        <div class="hero-visual" aria-label="SellLightの利用イメージ">
-          <img src="./assets/hero-app.svg" alt="iPhoneとiPadで商品管理をするイメージ" />
+        <div class="hero-visual hero-device-showcase" aria-label="SellLightの利用イメージ">
+          <img
+            class="hero-screen"
+            src="./assets/app-settings-preview.png"
+            alt="SellLightアプリの画面プレビュー"
+          />
+          <div class="hero-app-card" aria-label="SellLightアプリ">
+            <img src="./assets/app-icon.png" alt="" aria-hidden="true" />
+            <div>
+              <strong>SellLight</strong>
+              <span>iOS / iPadOS 対応</span>
+            </div>
+          </div>
         </div>
       </section>
 

@@ -12,6 +12,8 @@ SellLightのiOS/iPadOS向けマーケティングLPです。GitHub Pagesで公�
 ├── .nojekyll
 ├── README.md
 └── assets/
+    ├── app-icon.png
+    ├── app-settings-preview.png
     ├── favicon.svg
     ├── feature-overview.svg
     ├── hero-app.svg
@@ -53,11 +55,15 @@ TODO: 正式なSellLightのApp Store URLが確定したら、`app.js` の `APP_S
 
 画像は `assets/` 配下にまとめています。差し替える場合は同じファイル名で置き換えると、HTML側の変更なしで反映できます。
 
-- ヒーロー画像: `assets/hero-app.svg`
+- アプリアイコン: `assets/app-icon.png`
+- ヒーロー画面プレビュー: `assets/app-settings-preview.png`
+- ヒーロー代替SVG: `assets/hero-app.svg`
 - 機能説明画像: `assets/feature-overview.svg`
 - OGP画像: `assets/og-image.png`
 - OGP画像の編集元: `assets/og-image.svg`
 - favicon: `assets/favicon.svg`
+
+アクセントカラーはSellLightアプリアイコンとアプリUIの赤に合わせて、`styles.css` の `--accent` / `--accent-dark` で管理しています。
 
 OGP画像を作り直す場合は、`assets/og-image.svg` を編集してからPNGを書き出してください。
 
